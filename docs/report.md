@@ -86,9 +86,51 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 | CustomerID         | Identifier uniquely assigned to each customer                                                                     | float     |
 | Country            | The country of the customer                                                                                       | object    |
 
+</details>
 
+## Data Cleaning & Exploratory Data Analysis
+
+<details>
+<summary><i><b>Data Source</b></i></summary>
+  
+<br>
+
+The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/). It provides transactional information for a UK-based online retail company that specializes in selling unique all-occasion gifts.
+</details>
+ 
+<details>
+<summary><i><b>Data Size and Records</b></i></summary>
+  
+<br>
+
+- **Data size -** 45.58 MB
+
+- **Data shape -** 541909(rows), 8(columns)
+
+- **Time period -** between 01/12/2010 and 09/12/2011
+
+- Each row typically represents a single transaction made by a customer with the online retail company.
 
 </details>
+
+<details>
+<summary><i><b>Data Structure</b></i></summary>
+  
+<br>
+
+| Column Name                | Definition                                                                                                | Data Type |
+|--------------------|-------------------------------------------------------------------------------------------------------------------|-----------|
+| InvoiceNo          | Code representing each unique transaction. If this code starts with the letter 'C', it indicates a cancellation   | object    |
+| StockCode          | Code uniquely assigned to each distinct product                                                                   | object    |
+| Description        | Description of each product                                                                                       | object    |
+| Quantity           | The number of units of a product in a transaction                                                                 | integer   |
+| InvoiceDate        | The date and time of the transaction                                                                              | object    |
+| UnitPrice          | The unit price of the product                                                                                     | float     |
+| CustomerID         | Identifier uniquely assigned to each customer                                                                     | float     |
+| Country            | The country of the customer                                                                                       | object    |
+
+</details>
+
 
 
 
