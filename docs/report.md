@@ -61,7 +61,7 @@ About the data
   
 <br>
 
-Aout the data size and records
+The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) from the [UCI Machine Learning Repository]. It provides transactional information for a UK-based online retail company that specializes in selling unique all-occasion gifts.
 </details>
 
 <details>
