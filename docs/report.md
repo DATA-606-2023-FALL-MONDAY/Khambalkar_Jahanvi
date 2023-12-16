@@ -60,7 +60,11 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
   
 <br>
 
+- **Data size -** 45.58 MB
 
+- **Data shape -** 541909(rows), 8(columns)
+
+- **Time period -** between 01/12/2010 and 09/12/2011
 
 </details>
 
