@@ -12,6 +12,8 @@ Mobile : +1 667-464-5245
 LinkedIn : linkedin.com/in/jahanvi2299
 
 <br>
+<br>
+<br>
 
 ## Education
 - <div><div>University of Maryland, Baltimore County Baltimore, MD</div><div align="right">Aug 2022 - May 2024</div>
