@@ -88,7 +88,7 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 
 </details>
 
-## Data Cleaning & Exploratory Data Analysis
+## Exploratory Data Analysis & Cleaning
 
 <details>
 <summary><i><b>Data Source</b></i></summary>
