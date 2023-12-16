@@ -7,16 +7,6 @@
 - [LinkedIn]()
 - [PowerPoint Presentation]()
 - [Youtube Video]()
-```diff
-
-dcxdcsdccca
-sdcinmslzkmx
-dslcmlzsmx
-
-```
-
-
-
 
 ## Background
 
@@ -52,6 +42,46 @@ RFM analysis is a data-driven approach that helps businesses make informed decis
 - Are there customer segments with growth potential that have been underutilized?
 - What complementary products can be recommended to customers based on their purchase history?
 - Which customer segments have the highest retention rates?
+
+</details>
+
+## Data
+
+<details>
+<summary><i><b>Data Source</b></i></summary>
+  
+<br>
+
+About the data
+
+</details>
+ 
+<details>
+<summary><i><b>Data Size and Records</b></i></summary>
+  
+<br>
+
+RFM analysis is a data-driven approach that helps businesses make informed decisions based on actual customer behavior. It minimizes guesswork and intuition, allowing organizations to rely on evidence-based strategies. RFM analysis enables businesses to understand their customers better by categorizing them into distinct segments based on their transactional behavior. This allows for personalized marketing strategies tailored to the specific needs and preferences of each segment. Segment-specific marketing campaigns can be more effective than generic campaigns. RFM analysis helps businesses design and execute campaigns that resonate with each segment, leading to higher response rates and conversion rates. By identifying and understanding the unique characteristics of customer groups, businesses can optimize resource allocation, enhance customer retention efforts, and ultimately improve the overall effectiveness of their marketing initiatives. This technique is also widely used for customer relationship management.
+
+</details>
+
+<details>
+<summary><i><b>Data Structure</b></i></summary>
+  
+<br>
+
+| Column Name                | Definition                                                                                                | Data Type |
+|--------------------|-------------------------------------------------------------------------------------------------------------------|-----------|
+| InvoiceNo          | Code representing each unique transaction. If this code starts with the letter 'C', it indicates a cancellation   | object    |
+| StockCode          | Code uniquely assigned to each distinct product                                                                   | object    |
+| Description        | Description of each product                                                                                       | object    |
+| Quantity           | The number of units of a product in a transaction                                                                 | integer   |
+| InvoiceDate        | The date and time of the transaction                                                                              | object    |
+| UnitPrice          | The unit price of the product                                                                                     | float     |
+| CustomerID         | Identifier uniquely assigned to each customer                                                                     | object    |
+| Country            | The country of the customer                                                                                       | object    |
+
+
 
 </details>
 
