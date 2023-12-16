@@ -2,7 +2,7 @@
 
 # Jahanvi Khambalkar
 
-<span><img align="right" width="150" height="200" src="https://github.com/Jahanvi-Khambalkar-99/UMBC-DATA606-FALL2023-MONDAY/assets/75730935/9dccad35-639c-454d-8c92-e0e5acc030fc"></span>
+<span><img align="right" width="112" height="150" src="https://github.com/Jahanvi-Khambalkar-99/UMBC-DATA606-FALL2023-MONDAY/assets/75730935/9dccad35-639c-454d-8c92-e0e5acc030fc"></span>
 </div>
 
 Email : dl32738@umbc.edu
