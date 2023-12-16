@@ -91,7 +91,8 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 ## Exploratory Data Analysis & Cleaning
 
 <details>
-<summary><i><b>Data Source</b></i></summary>
+<summary><i><b>HANDLING MISSING VALUES![image](https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/assets/75730935/f069c7b6-26a5-4857-8d0e-6f3273f4ff83)
+</b></i></summary>
   
 <br>
 
