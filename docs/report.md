@@ -78,7 +78,7 @@ RFM analysis is a data-driven approach that helps businesses make informed decis
 | Quantity           | The number of units of a product in a transaction                                                                 | integer   |
 | InvoiceDate        | The date and time of the transaction                                                                              | object    |
 | UnitPrice          | The unit price of the product                                                                                     | float     |
-| CustomerID         | Identifier uniquely assigned to each customer                                                                     | object    |
+| CustomerID         | Identifier uniquely assigned to each customer                                                                     | float     |
 | Country            | The country of the customer                                                                                       | object    |
 
 
