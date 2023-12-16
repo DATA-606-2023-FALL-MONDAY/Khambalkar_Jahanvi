@@ -91,49 +91,56 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 ## Exploratory Data Analysis & Cleaning
 
 <details>
-<summary><i><b>HANDLING MISSING VALUES![image](https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/assets/75730935/f069c7b6-26a5-4857-8d0e-6f3273f4ff83)
-</b></i></summary>
+<summary><i><b>Handling Missing Values</b></i></summary>
   
 <br>
 
-The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/). It provides transactional information for a UK-based online retail company that specializes in selling unique all-occasion gifts.
+graph
+
 </details>
  
 <details>
-<summary><i><b>Data Size and Records</b></i></summary>
+<summary><i><b>Handling Duplicate Values</b></i></summary>
   
 <br>
 
-- **Data size -** 45.58 MB
-
-- **Data shape -** 541909(rows), 8(columns)
-
-- **Time period -** between 01/12/2010 and 09/12/2011
-
-- Each row typically represents a single transaction made by a customer with the online retail company.
+graph
 
 </details>
 
 <details>
-<summary><i><b>Data Structure</b></i></summary>
+<summary><i><b>Handling Cancelled Transactions</b></i></summary>
   
 <br>
 
-| Column Name                | Definition                                                                                                | Data Type |
-|--------------------|-------------------------------------------------------------------------------------------------------------------|-----------|
-| InvoiceNo          | Code representing each unique transaction. If this code starts with the letter 'C', it indicates a cancellation   | object    |
-| StockCode          | Code uniquely assigned to each distinct product                                                                   | object    |
-| Description        | Description of each product                                                                                       | object    |
-| Quantity           | The number of units of a product in a transaction                                                                 | integer   |
-| InvoiceDate        | The date and time of the transaction                                                                              | object    |
-| UnitPrice          | The unit price of the product                                                                                     | float     |
-| CustomerID         | Identifier uniquely assigned to each customer                                                                     | float     |
-| Country            | The country of the customer                                                                                       | object    |
+graph
 
 </details>
 
+<details>
+<summary><i><b>Correcting Stockcode Anomalies</b></i></summary>
+  
+<br>
 
+graph
 
+</details>
 
+<details>
+<summary><i><b>Cleaning Description Column</b></i></summary>
+  
+<br>
 
+graph
+
+</details>
+
+<details>
+<summary><i><b>Treating Zero Unit Price</b></i></summary>
+  
+<br>
+
+graph
+
+</details>
 
