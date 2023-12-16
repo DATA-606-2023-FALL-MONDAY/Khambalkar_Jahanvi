@@ -66,6 +66,8 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 
 - **Time period -** between 01/12/2010 and 09/12/2011
 
+- Each row typically represents a single transaction made by a customer with the online retail company.
+
 </details>
 
 <details>
