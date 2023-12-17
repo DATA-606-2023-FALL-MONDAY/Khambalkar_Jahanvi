@@ -146,7 +146,17 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
   
 <br>
 
-graph
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/stockcode_anomaly.png" alt="canceled transaction" width="auto" height="300">
+</p>
+
+<div align="justify">
+- This plot shows the occurrence of each unique stockcode. 
+- most of the stock codes have 5 or 6 alphanumeric characters. 
+  
+  - But then there are stock codes like post, bank charges, and Dot which don't mean anything.
+
+</div>
 
 </details>
 
