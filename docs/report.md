@@ -406,11 +406,6 @@ The topmost category is
 
 ## Conclusion and Limitations
 
-<details>
-<summary><i><b></b></i></summary>
-  
-<br>
-
 - Approach 2 performs better in most cases and gives more accurate insight on customer segments.
 - The k-means algorithm is sensitive to the initial placement of centroids. Different initializations may result in different final cluster assignments.
 - The choice of initial centroids can impact the convergence and final segmentation.
@@ -418,6 +413,25 @@ The topmost category is
 - Although the accuracy of method 2 is higher, since the data is unlabeled, the real-life scenario may vary from what the model predicts.
 - Cannot cluster and predict the value and customer segment for one specific customer data, as the data points must be equal to or more than the number of optimal clusters.
 
+## Lesson Learned and Future Scope
 
-</details>
+- Shifted my approach from segmentation based on the combined RFM score to segmentation based on individual score.
+- This change was motivated by the concern that using a combined score might lead to the loss of important information.
+- Upon deeper exploration, I recognized that utilizing individual features instead of aggregated scores could preserve more information.
+- I aimed to leverage the raw features themselves to mitigate the potential loss of information.
+- Looking forward, exploring dynamic and real-time segmentation becomes imperative.
+- Developing models that can adapt to changing customer behavior in real-time and investigating streaming data and online learning algorithms for continuous and adaptive segmentation are areas of potential future research.
+
+## References
+
+- https://neptune.ai/blog/customer-segmentation-using-machine-learning
+
+- https://ieeexplore.ieee.org/document/9777146
+
+- https://www.researchgate.net/publication/373779425_Customer_Segmentation_Using_Machine_Learning_Model_An_Application_of_RFM_Analysis
+
+- https://www.moengage.com/blog/rfm-analysis-using-rfm-segments/
+
+- https://hex.tech/blog/Unveiling-patterns-in-unlabeled-data-with-k-means-clustering/
+
 
