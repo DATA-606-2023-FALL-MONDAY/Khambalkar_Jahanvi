@@ -203,3 +203,33 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 There are 33 rows in the data that have 0.0 as the unit price. 
 </details>
 
+
+## Feature Calculation
+
+<details>
+<summary><i><b>Recency</b></i></summary>
+  
+<br>
+
+The Data is grouped by 'CustomerID', and for each customer, the maximum invoice date is calculated. The recency is then computed as the difference in days between the present date and the maximum invoice date for each customer. 
+
+</details>
+ 
+<details>
+<summary><i><b>Frequency</b></i></summary>
+  
+<br>
+
+It is calculated by removing duplicate rows based on the 'InvoiceNo' column, ensuring that each invoice is counted only once for each customer. Then, it groups the Data by 'CustomerID' and counts the number of unique invoices for each customer.
+
+</details>
+
+<details>
+<summary><i><b>Research Questions</b></i></summary>
+  
+<br>
+
+Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPrice' columns. This gives the total monetary value for each line or transaction in the data frame. The DataFrame is then grouped by 'CustomerID', and for each customer, the total monetary value is calculated by summing the 'Total_Amount' column.
+
+</details>
+
