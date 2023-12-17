@@ -6,7 +6,7 @@
 - [GitHub]()
 - [LinkedIn]()
 - [PowerPoint Presentation]()
-- [Youtube Video]()
+- [Youtube Video](https://www.youtube.com/watch?v=7ImE07uHMe4)
 
 ## Background
 
@@ -95,7 +95,15 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
   
 <br>
 
-graph
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/krutal_patel/blob/main/pictures/accident_area.png" alt="Accident on different area" width="auto" height="300">
+</p>
+
+<div align="justify">
+
+- The pie chart delineates the distribution of accidents between urban and rural areas. With two-thirds of accidents occurring in urban settings, it underscores the heightened risk and frequency within city environments. Conversely, rural areas experience one-third of the total accidents, indicating a comparatively lower occurrence in less densely populated regions.
+
+</div>
 
 </details>
  
