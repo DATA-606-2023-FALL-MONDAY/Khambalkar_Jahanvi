@@ -376,3 +376,43 @@ The topmost category is
 
 </details>
 
+## Performance Comparision
+
+- Since the dataset is unlabeled. the metrics that I have used to evaluate the performance of unsupervised machine learning techniques are:
+
+<details>
+<summary><i><b>For the segmentation using combined RFM Score (Approach 1) </b></i></summary>
+  
+<br>
+
+- The Silhouette score is 0.086, which is nearly 0
+- The CH Score is around 139,
+- The DB score is 1.29
+
+
+</details>
+ 
+<details>
+<summary><i><b>For the segmentation based on variation in individual R, F, M Features</b></i></summary>
+  
+<br>
+
+- For the training dataset, the silhouette score is 0.367, which is closer to 1 and more than the same as the previous technique.
+- The CH Score is around 500, which is comparatively high,
+- The DB Score is 0.89. 
+
+
+</details>
+
+<details>
+<summary><i><b>3.	Davies-Bouldin Index</b></i></summary>
+  
+<br>
+
+- It measures the average similarity between each cluster and its most similar cluster.
+- Lower values indicate better clustering.
+
+
+
+</details>
+
