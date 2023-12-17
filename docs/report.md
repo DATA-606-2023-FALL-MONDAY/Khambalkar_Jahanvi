@@ -260,7 +260,7 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 </p>
 
 <div align="justify">
-- This plot shows that method classifies around 1800 customers in the low-value category, and the customers classified as mid-value and high-value categories are nearly the same.
+- The above plot shows that method classifies around 1800 customers in the low-value category, and the customers classified as mid-value and high-value categories are nearly the same.
 </div>
 <br>
 <p align="center">
@@ -268,7 +268,7 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 </p>
 
 <div align="justify">
-- This plot shows the customer segments falling under each category.
+- The above plot shows the customer segments falling under each category.
 </div>
 <br>
 <p align="center">
@@ -276,7 +276,7 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 </p>
 
 <div align="justify">
-- This graph shows that more than 800 customers are small buyers, followed by potential loyalists and champions. Around 500 customers have not made any purchase in a long time, so the business needs to make the last push to ensure customer retention. Business is on the verge of losing around 500 customers and has already lost around 400 customers. 
+- The above graph shows that more than 800 customers are small buyers, followed by potential loyalists and champions. Around 500 customers have not made any purchase in a long time, so the business needs to make the last push to ensure customer retention. Business is on the verge of losing around 500 customers and has already lost around 400 customers. 
 </div>
 </details>
  
