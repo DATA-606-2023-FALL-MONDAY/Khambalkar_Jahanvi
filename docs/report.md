@@ -117,7 +117,8 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 
 <div align="justify">
 
-- Checked for duplicate values based on the Invoice Number and discovered that there are 5225 duplicate data.
+- This chart shows the number of duplicate rows for each invoice no.
+- Checked for duplicate values based on the Invoice Number and discovered 5225 duplicate data.
 
 </div>
 
@@ -128,7 +129,15 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
   
 <br>
 
-graph
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/cancelled_transaction.png" alt="canceled transaction" width="auto" height="300">
+</p>
+
+<div align="justify">
+
+- The plot shows that there are around 2% of the transactions in the dataset that has been canceled.
+
+</div>
 
 </details>
 
