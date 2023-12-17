@@ -155,11 +155,14 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 - most of the stock codes have 5 or 6 alphanumeric characters. 
 </div>
 
+<br>
+
 <p align="center">
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/stockcode_anomaly.png" alt="stock code occurrence" width="auto" height="300">
 </p>
 
 <div align="justify">
+- This data shows that there is 8 stock code anomaly and their occurence.  
 - But then there are stock codes like post, bank charges, and Dot which don't mean anything.  
 </div>
 
