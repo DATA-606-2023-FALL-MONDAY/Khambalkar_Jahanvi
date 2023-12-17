@@ -262,6 +262,7 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 <div align="justify">
 - This plot shows that method classifies around 1800 customers in the low-value category, and the customers classified as mid-value and high-value categories are nearly the same.
 </div>
+<br>
 <p align="center">
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/tree-map_for_customer_segments_method_1.png" alt="treemap-1" width="auto" height="300">
 </p>
@@ -269,6 +270,7 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 <div align="justify">
 - This plot shows the customer segments falling under each category.
 </div>
+<br>
 <p align="center">
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/value_count_of_customer_segments_method_1.png" alt="valuecount-1" width="auto" height="300">
 </p>
