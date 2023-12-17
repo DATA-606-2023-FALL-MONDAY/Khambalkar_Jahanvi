@@ -96,13 +96,12 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 <br>
 
 <p align="center">
-  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/krutal_patel/blob/main/pictures/accident_area.png" alt="Accident on different area" width="auto" height="300">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/missing_values.png" alt="missing values" width="auto" height="300">
 </p>
 
 <div align="justify">
 
-- The pie chart delineates the distribution of accidents between urban and rural areas. With two-thirds of accidents occurring in urban settings, it underscores the heightened risk and frequency within city environments. Conversely, rural areas experience one-third of the total accidents, indicating a comparatively lower occurrence in less densely populated regions.
-
+- The Description and Customer ID together had almost 26% missing values. 
 </div>
 
 </details>
@@ -112,7 +111,16 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
   
 <br>
 
-graph
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/duplicate_invoice_value.png" alt="duplicate values" width="auto" height="300">
+</p>
+
+<div align="justify">
+
+- This chart shows the number of duplicate rows for each invoice no.
+- Checked for duplicate values based on the Invoice Number and discovered 5225 duplicate data.
+
+</div>
 
 </details>
 
@@ -121,7 +129,15 @@ graph
   
 <br>
 
-graph
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/cancelled_transaction.png" alt="canceled transaction" width="auto" height="300">
+</p>
+
+<div align="justify">
+
+- The plot shows that there are around 2% of the transactions in the dataset that has been canceled.
+
+</div>
 
 </details>
 
@@ -130,7 +146,17 @@ graph
   
 <br>
 
-graph
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/stockcode_anomaly.png" alt="canceled transaction" width="auto" height="300">
+</p>
+
+<div align="justify">
+- This plot shows the occurrence of each unique stockcode. 
+- most of the stock codes have 5 or 6 alphanumeric characters. 
+  
+  - But then there are stock codes like post, bank charges, and Dot which don't mean anything.
+
+</div>
 
 </details>
 
