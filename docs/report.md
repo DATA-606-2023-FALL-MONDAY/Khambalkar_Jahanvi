@@ -5,7 +5,7 @@
 - Author Name: Jahanvi Khambalkar
 - [GitHub]()
 - [LinkedIn]()
-- [PowerPoint Presentation]()
+- [PowerPoint Presentation](https://docs.google.com/presentation/d/1jcgHELVdnz5es41Aemv-LeXBFdTWxCX7/edit?usp=sharing&ouid=115517739278819963262&rtpof=true&sd=true)
 - [Youtube Video](https://www.youtube.com/watch?v=7ImE07uHMe4)
 
 ## Background
