@@ -276,7 +276,7 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 </p>
 
 <div align="justify">
-- The above graph shows that more than 800 customers are small buyers, followed by potential loyalists and champions. Around 500 customers have not made any purchase in a long time, so the business needs to make the last push to ensure customer retention. Business is on the verge of losing around 500 customers and has already lost around 400 customers. 
+- The above graph shows that more than 800 customers are small buyers, followed by potential loyalists and champions. Around 500 customers have not made any purchases in a long time, so the business needs to make the last push to ensure customer retention. Business is on the verge of losing around 500 customers and has already lost around 400 customers. 
 </div>
 </details>
  
@@ -294,17 +294,17 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/optimal_cluster_elbow_mwthod.png" alt="elbow method" width="auto" height="300">
 </p>
 <br>
-- The optimal number of clusters is often chosen as the value of k at the elbow point. And fromt eh above graph, it is clear that number of optimal clusters i.e k=3
-- K-mean clustering algorithm is used to create a cluster of customers, and the algorithm clustered the data, labeling them 0, 1, and 2. 
+- The optimal number of clusters is often chosen as the value of k at the elbow point. From the above graph, it is clear that the number of optimal clusters i.e k=3
+- The k-mean clustering algorithm is used to create a cluster of customers, and the algorithm clustered the data, labeling them 0, 1, and 2. 
 A separate data frame for each cluster is created where the data frame Low value' represents cluster 0, Mid value represents cluster 0, and the high value represents cluster 2.
 <p align="center">
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets//rfm_cluster_for_method_2.png" alt="category-2" width="auto" height="300">
 </p>
 <br>
-- To segment the each cluster further, minimum and maximum threshold for recency, frequency, and monetary based on the data distribution is calculated.
+- To further segment each cluster, the minimum and maximum threshold for recency, frequency, and monetary based on the data distribution is calculated.
 - And then segmented each cluster based on the feature variation within the cluster.
 
-**Visuatizatioon of Result**
+**Visualization of Result**
 
 <p align="center">
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/tree-map_for_customer_segments_method_2.png" alt="treemap-2" width="auto" height="300">
@@ -313,14 +313,14 @@ A separate data frame for each cluster is created where the data frame Low value
 <div align="justify">
 - The above plot shows the customer segments falling under each category.
 
-- Lets understand what each of the term in this tree map means. Lets start by bottom most category 
+- Let us understand what each of the terms in this tree map means. Let's start with the bottom-most category 
 
   - Lost – Customers who have stopped using the brand or stopped engaging with the business.
- then come customer who 
-  - Need Attention – Existing Customer, who’ve not made any purchase in a long time. The business needs to make last push to ensure customer retention. 
+ then comes, the customer, who 
+  - Need Attention – Existing Customers, who’ve not made any purchase in a long time. The business needs to make a last push to ensure customer retention. 
 Followed by that comes customers who are
   - At Risk – Existing users, who’ve not bought recently. These customer needs to be induced to make a purchase as soon as possible or else the brand will lose them. 
-Then in mid-value section comes
+Then in the mid-value section comes
   - Small Buyers - customers with moderate recency, frequency, and monetary value. While they may not be high spenders, they are consistent in their engagement and should not be neglected.
   - Potential Loyalist - Customers show promise for becoming loyal customers. They may need targeted strategies to encourage repeat business and increase their value over time. Medium and consistent spender.
 And then comes
@@ -337,5 +337,42 @@ The topmost category is
 <div align="justify">
 - To interpret the analysis, around 2400 customers are potential loyalists, 300 customers are loyal, but very few customers fall into the champions category. About 800 customers are at risk, and nearly 200 customers are small buyers. The business needs to pay attention to around 100 customers on an urgent basis.
 </div>
+</details>
+
+
+## Performance Evaluation Metrics
+
+- Since the dataset is unlabeled. the metrics that I have used to evaluate the performance of unsupervised machine learning techniques are:
+
+<details>
+<summary><i><b>1.	Silhouette Score</b></i></summary>
+  
+<br>
+
+- It measures how similar an object is to its own cluster (cohesion) compared to other clusters (separation).
+- The score ranges from -1 to 1, where a high value indicates well-defined clusters.
+
+</details>
+ 
+<details>
+<summary><i><b>2.	Calinski-Harabasz Index</b></i></summary>
+  
+<br>
+
+- It evaluates the ratio of the between-cluster variance to the within-cluster variance.
+- A higher index suggests better-defined clusters.
+
+</details>
+
+<details>
+<summary><i><b>3.	Davies-Bouldin Index</b></i></summary>
+  
+<br>
+
+- It measures the average similarity between each cluster and its most similar cluster.
+- Lower values indicate better clustering.
+
+
+
 </details>
 
