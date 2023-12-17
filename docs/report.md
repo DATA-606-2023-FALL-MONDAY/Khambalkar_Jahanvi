@@ -302,6 +302,7 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 </p>
 <br>
 - To segment the each cluster further, minimum and maximum threshold for recency, frequency, and monetary based on the data distribution is calculated.
+- And then segmented each cluster based on the feature variation within the cluster.
 
 </details>
 
