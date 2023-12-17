@@ -285,7 +285,19 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
   
 <br>
 
-ap2
+**Procedure**
 
+- Firstly, used a standard scaler to ensure that all features have a similar scale to prevent some features from dominating others.
+- Split the unlabeled data into training and test datasets with a ratio of 9:1, respectively.
+- Used elbow methods to determine an optimal number of clusters.
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/optimal_cluster_elbow_mwthod.png" alt="elbow method" width="auto" height="300">
+</p>
+- The optimal number of clusters is often chosen as the value of k at the elbow point. And fromt eh above graph, it is clear that number of optimal clusters i.e k=3
+- K-mean clustering algorithm is used to create a cluster of customers, and the algorithm clustered the data, labeling them 0, 1, and 2. 
+- Separate data frame for each cluster is created where the data frame Low value' represents cluster 0, Mid value represents cluster 0, and the high value represents cluster 2.
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets//rfm_cluster_for_method_2.png" alt="category-2" width="auto" height="300">
+</p>
 </details>
 
