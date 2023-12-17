@@ -96,7 +96,7 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 <br>
 
 <p align="center">
-  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/krutal_patel/blob/main/pictures/accident_area.png" alt="Accident on different area" width="auto" height="300">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/missing_values.png" alt="missing values" width="auto" height="300">
 </p>
 
 <div align="justify">
