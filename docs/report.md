@@ -253,7 +253,29 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 -	The segments include 'Champions,' 'Loyal,' 'Potential Loyalists,' 'Small Buyer/Cannot Lose,' 'At Risk,' 'Need Attention,' and 'Lost.'
 -	Customers fall into different segments based on their RFM scores, with each segment representing a different level of engagement or risk.
 
+**Visuatizatioon of Result**
 
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/rfm_value_segment_for_method_1.png" alt="categories-1" width="auto" height="300">
+</p>
+
+<div align="justify">
+- This plot shows that method classifies around 1800 customers in the low-value category, and the customers classified as mid-value and high-value categories are nearly the same.
+</div>
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/tree-map_for_customer_segments_method_1.png" alt="treemap-1" width="auto" height="300">
+</p>
+
+<div align="justify">
+- This plot shows the customer segments falling under each category.
+</div>
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/value_count_of_customer_segments_method_1.png" alt="valuecount-1" width="auto" height="300">
+</p>
+
+<div align="justify">
+- This graph shows that more than 800 customers are small buyers, followed by potential loyalists and champions. Around 500 customers have not made any purchase in a long time, so the business needs to make the last push to ensure customer retention. Business is on the verge of losing around 500 customers and has already lost around 400 customers. 
+</div>
 </details>
  
 <details>
