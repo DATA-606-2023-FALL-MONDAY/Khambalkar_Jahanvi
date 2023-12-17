@@ -304,5 +304,22 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 - To segment the each cluster further, minimum and maximum threshold for recency, frequency, and monetary based on the data distribution is calculated.
 - And then segmented each cluster based on the feature variation within the cluster.
 
+**Visuatizatioon of Result**
+
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/tree-map_for_customer_segments_method_2.png" alt="treemap-2" width="auto" height="300">
+</p>
+
+<div align="justify">
+- The above plot shows the customer segments falling under each category.
+</div>
+<br>
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/value_count_of_customer_segments_method_2.png" alt="treemap-1" width="auto" height="300">
+</p>
+
+<div align="justify">
+- To interpret the analysis, around 2400 customers are potential loyalists, 300 customers are loyal, but very few customers fall into the champions category. About 800 customers are at risk, and nearly 200 customers are small buyers. The business needs to pay attention to around 100 customers on an urgent basis.
+</div>
 </details>
 
