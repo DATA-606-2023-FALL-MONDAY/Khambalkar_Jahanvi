@@ -240,7 +240,17 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
   
 <br>
 
-ap1
+•	Quantiles for Recency, Frequency, and Monetary are calculated, dividing the data into four segments (quartiles).
+•	Then Custom functions r_score and fm_score are defined to assign scores based on where each customer falls within these quartiles. Customers with lower recency values receive higher scores.
+•	Individual scores for Recency (R_Score), Frequency (F_Score), and Monetary (M_Score) are calculated for each customer using these custom functions.
+•	The final RFM score (RFM_Score) is calculated by summing up each customer's recency, frequency, and monetary scores.
+
+•	After that, the method uses the pd.qcut() function to create quantile-based bins  for the 'RFM_Score' column.
+•	The labels' Low-Value,' 'Mid-Value,' and 'High-Value' are assigned to represent different segments based on the RFM score.
+•	Customer segments are assigned based on ranges of RFM scores.
+•	The segments include 'Champions,' 'Loyal,' 'Potential Loyalists,' 'Small Buyer/Cannot Lose,' 'At Risk,' 'Need Attention,' and 'Lost.'
+•	Customers fall into different segments based on their RFM scores, with each segment representing a different level of engagement or risk.
+
 
 </details>
  
