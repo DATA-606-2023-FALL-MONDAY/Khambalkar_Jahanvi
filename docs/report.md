@@ -253,14 +253,14 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 -	The segments include 'Champions,' 'Loyal,' 'Potential Loyalists,' 'Small Buyer/Cannot Lose,' 'At Risk,' 'Need Attention,' and 'Lost.'
 -	Customers fall into different segments based on their RFM scores, with each segment representing a different level of engagement or risk.
 
-**Visuatizatioon of Result**
+**Visualization of Result**
 
 <p align="center">
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/rfm_value_segment_for_method_1.png" alt="categories-1" width="auto" height="300">
 </p>
 
 <div align="justify">
-- The above plot shows that method classifies around 1800 customers in the low-value category, and the customers classified as mid-value and high-value categories are nearly the same.
+- The above plot shows that the method classifies around 1800 customers in the low-value category, and the customers classified as mid-value and high-value categories are nearly the same.
 </div>
 <br>
 <p align="center">
@@ -287,7 +287,7 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 
 **Procedure**
 
-- Firstly, used a standard scaler to ensure that all features have a similar scale to prevent some features from dominating others.
+- First, use a standard scaler to ensure that all features have a similar scale to prevent some features from dominating others.
 - Split the unlabeled data into training and test datasets with a ratio of 9:1, respectively.
 - Used elbow methods to determine an optimal number of clusters.
 <p align="center">
@@ -296,7 +296,7 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 <br>
 - The optimal number of clusters is often chosen as the value of k at the elbow point. And fromt eh above graph, it is clear that number of optimal clusters i.e k=3
 - K-mean clustering algorithm is used to create a cluster of customers, and the algorithm clustered the data, labeling them 0, 1, and 2. 
-- Separate data frame for each cluster is created where the data frame Low value' represents cluster 0, Mid value represents cluster 0, and the high value represents cluster 2.
+A separate data frame for each cluster is created where the data frame Low value' represents cluster 0, Mid value represents cluster 0, and the high value represents cluster 2.
 <p align="center">
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets//rfm_cluster_for_method_2.png" alt="category-2" width="auto" height="300">
 </p>
@@ -319,13 +319,13 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
  then come customer who 
   - Need Attention – Existing Customer, who’ve not made any purchase in a long time. The business needs to make last push to ensure customer retention. 
 Followed by that comes customers who are
-  - At Risk – Existing users, who’ve not bought recently. These customer needs to be induced to make a purchase soon as possible or else the brand will lose them. 
-Then in mid value section comes
+  - At Risk – Existing users, who’ve not bought recently. These customer needs to be induced to make a purchase as soon as possible or else the brand will lose them. 
+Then in mid-value section comes
   - Small Buyers - customers with moderate recency, frequency, and monetary value. While they may not be high spenders, they are consistent in their engagement and should not be neglected.
   - Potential Loyalist - Customers show promise for becoming loyal customers. They may need targeted strategies to encourage repeat business and increase their value over time. Medium and consistent spender.
 And then comes
   - Loyal - Customers who are already loyal to the business. They demonstrate consistent and frequent engagement, making them valuable assets.
-The top most category is
+The topmost category is
   - Champions - Highest-value customers. These individuals are not only frequent purchasers but also contribute significantly in terms of monetary value. They are the most valuable customers and should be prioritized for special treatment and personalized strategies.
 
 </div>
