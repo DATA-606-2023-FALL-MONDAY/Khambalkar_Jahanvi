@@ -225,7 +225,7 @@ It is calculated by removing duplicate rows based on the 'InvoiceNo' column, ens
 </details>
 
 <details>
-<summary><i><b>Research Questions</b></i></summary>
+<summary><i><b>Monetary</b></i></summary>
   
 <br>
 
