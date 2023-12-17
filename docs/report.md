@@ -152,17 +152,17 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 
 <div align="justify">
 - This plot shows the occurrence of each unique stockcode. 
-- most of the stock codes have 5 or 6 alphanumeric characters. 
+- Most of the stock codes have 5 or 6 alphanumeric characters. 
 </div>
 
 <br>
 
 <p align="center">
-  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/stockcode_anomaly.png" alt="stock code occurrence" width="auto" height="300">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/stockcode_anomaly.png" alt="stock code anomaly" width="auto" height="300">
 </p>
 
 <div align="justify">
-- This data shows that there is 8 stock code anomaly and their occurence.  
+- This data shows that there is 8 stock code anomaly and their occurrence.  
 - But then there are stock codes like post, bank charges, and Dot which don't mean anything.  
 </div>
 
@@ -173,7 +173,25 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
   
 <br>
 
-graph
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/description_count.png" alt="description occurrence" width="auto" height="300">
+</p>
+
+<div align="justify">
+- This plot shows the occurrence of each unique description. 
+- Apparently, all the descriptions are in upper case, so that might be the standard form for description. 
+- However, on checking the descriptions in lowercase, some descriptions didn't seem normal.
+</div>
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/description_anomaly.png" alt="anomaly descriptions" width="auto" height="300">
+</p>
+
+<div align="justify">
+- This plot shoes that the data have lower case letters in 19 product descriptions. However, 2 of them seem odd - 'Next Day Carriage' and 'High-Resolution Image'  
+</div>
 
 </details>
 
