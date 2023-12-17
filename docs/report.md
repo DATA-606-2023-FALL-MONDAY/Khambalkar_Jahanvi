@@ -190,7 +190,7 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 </p>
 
 <div align="justify">
-- This plot shoes that the data have lower case letters in 19 product descriptions. However, 2 of them seem odd - 'Next Day Carriage' and 'High-Resolution Image'  
+- This plot shows that the data have lowercase letters in 19 product descriptions. However, 2 of them seem odd - 'Next Day Carriage' and 'High-Resolution Image'  
 </div>
 
 </details>
@@ -200,7 +200,6 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
   
 <br>
 
-graph
-
+There are 33 rows in the data that have 0.0 as the unit price. 
 </details>
 
