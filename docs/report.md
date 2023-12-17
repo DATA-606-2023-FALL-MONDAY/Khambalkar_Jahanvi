@@ -393,25 +393,30 @@ The topmost category is
 </details>
  
 <details>
-<summary><i><b>For the segmentation based on variation in individual R, F, M Features</b></i></summary>
-  
-<br>
-
-- For the training dataset, the silhouette score is 0.367, which is closer to 1 and more than the same as the previous technique.
-- The CH Score is around 500, which is comparatively high,
-- The DB Score is 0.89. 
-
-
-</details>
-
-<details>
-<summary><i><b>3.	Davies-Bouldin Index</b></i></summary>
+<summary><i><b>For the segmentation based on variation in individual R, F, M Features (Approach 2)</b></i></summary>
   
 <br>
 
 - It measures the average similarity between each cluster and its most similar cluster.
 - Lower values indicate better clustering.
+- Also, the scores of the performance metrics of test data are also relatively better than the scores of the performance metric of Segmentation Using Combined RFM Scores.
 
+
+</details>
+
+## Conclusion and Limitations
+
+<details>
+<summary><i><b></b></i></summary>
+  
+<br>
+
+- Approach 2 performs better in most cases and gives more accurate insight on customer segments.
+- The k-means algorithm is sensitive to the initial placement of centroids. Different initializations may result in different final cluster assignments.
+- The choice of initial centroids can impact the convergence and final segmentation.
+- K-means assumes that clusters are spherical and equally sized. In reality, clusters may have different shapes, densities, or sizes. It may struggle with clusters that have complex geometries.
+- Although the accuracy of method 2 is higher, since the data is unlabeled, the real-life scenario may vary from what the model predicts.
+- Cannot cluster and predict the value and customer segment for one specific customer data, as the data points must be equal to or more than the number of optimal clusters.
 
 
 </details>
