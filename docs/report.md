@@ -312,6 +312,22 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 
 <div align="justify">
 - The above plot shows the customer segments falling under each category.
+
+- Lets understand what each of the term in this tree map means. Lets start by bottom most category 
+
+  - Lost – Customers who have stopped using the brand or stopped engaging with the business.
+ then come customer who 
+  - Need Attention – Existing Customer, who’ve not made any purchase in a long time. The business needs to make last push to ensure customer retention. 
+Followed by that comes customers who are
+  - At Risk – Existing users, who’ve not bought recently. These customer needs to be induced to make a purchase soon as possible or else the brand will lose them. 
+Then in mid value section comes
+  - Small Buyers - customers with moderate recency, frequency, and monetary value. While they may not be high spenders, they are consistent in their engagement and should not be neglected.
+  - Potential Loyalist - Customers show promise for becoming loyal customers. They may need targeted strategies to encourage repeat business and increase their value over time. Medium and consistent spender.
+And then comes
+  - Loyal - Customers who are already loyal to the business. They demonstrate consistent and frequent engagement, making them valuable assets.
+The top most category is
+  - Champions - Highest-value customers. These individuals are not only frequent purchasers but also contribute significantly in terms of monetary value. They are the most valuable customers and should be prioritized for special treatment and personalized strategies.
+
 </div>
 <br>
 <p align="center">
