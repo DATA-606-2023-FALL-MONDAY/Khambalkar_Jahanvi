@@ -293,11 +293,15 @@ Firstly the 'Total_Amount' is counted by multiplying the 'Quantity' and 'UnitPri
 <p align="center">
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/optimal_cluster_elbow_mwthod.png" alt="elbow method" width="auto" height="300">
 </p>
+<br>
 - The optimal number of clusters is often chosen as the value of k at the elbow point. And fromt eh above graph, it is clear that number of optimal clusters i.e k=3
 - K-mean clustering algorithm is used to create a cluster of customers, and the algorithm clustered the data, labeling them 0, 1, and 2. 
 - Separate data frame for each cluster is created where the data frame Low value' represents cluster 0, Mid value represents cluster 0, and the high value represents cluster 2.
 <p align="center">
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets//rfm_cluster_for_method_2.png" alt="category-2" width="auto" height="300">
 </p>
+<br>
+- To segment the each cluster further, minimum and maximum threshold for recency, frequency, and monetary based on the data distribution is calculated.
+
 </details>
 
