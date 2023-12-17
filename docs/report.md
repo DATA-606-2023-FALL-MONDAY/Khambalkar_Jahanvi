@@ -101,8 +101,7 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
 
 <div align="justify">
 
-- The pie chart delineates the distribution of accidents between urban and rural areas. With two-thirds of accidents occurring in urban settings, it underscores the heightened risk and frequency within city environments. Conversely, rural areas experience one-third of the total accidents, indicating a comparatively lower occurrence in less densely populated regions.
-
+- The Description and Customer ID together had almost 26% missing values. 
 </div>
 
 </details>
@@ -112,7 +111,15 @@ The dataset is known as the [Online Retail](https://doi.org/10.24432/C5BW33) fro
   
 <br>
 
-graph
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Khambalkar_Jahanvi/blob/main/assets/duplicate_invoice_value.png" alt="duplicate values" width="auto" height="300">
+</p>
+
+<div align="justify">
+
+- Checked for duplicate values based on the Invoice Number and discovered that there are 5225 duplicate data.
+
+</div>
 
 </details>
 
