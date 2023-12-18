@@ -3,7 +3,7 @@
 - Project Title: Customer Segmentation Based on RFM Analysis
 - Prepared for UMBC Data Science Master Degree Capstone under the guidance of Dr. Chaojie (Jay) Wang
 - Author Name: Jahanvi Khambalkar
-- [GitHub]()
+- [GitHub](https://github.com/Jahanvi-Khambalkar-99)
 - [LinkedIn]()
 - [PowerPoint Presentation](https://docs.google.com/presentation/d/1jcgHELVdnz5es41Aemv-LeXBFdTWxCX7/edit?usp=sharing&ouid=115517739278819963262&rtpof=true&sd=true)
 - [Youtube Video](https://www.youtube.com/watch?v=7ImE07uHMe4)
