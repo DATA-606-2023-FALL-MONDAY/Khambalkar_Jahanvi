@@ -4,7 +4,7 @@
 - Prepared for UMBC Data Science Master Degree Capstone under the guidance of Dr. Chaojie (Jay) Wang
 - Author Name: Jahanvi Khambalkar
 - [GitHub](https://github.com/Jahanvi-Khambalkar-99)
-- [LinkedIn]()
+- [LinkedIn](https://www.linkedin.com/in/jahanvi-khambalkar-9b1042244/)
 - [PowerPoint Presentation](https://docs.google.com/presentation/d/1jcgHELVdnz5es41Aemv-LeXBFdTWxCX7/edit?usp=sharing&ouid=115517739278819963262&rtpof=true&sd=true)
 - [Youtube Video](https://www.youtube.com/watch?v=7ImE07uHMe4)
 
